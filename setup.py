@@ -8,10 +8,10 @@ setup(
     author_email='a.sychugov@uiscom.ru',
     description='Python API library for the Mandrill email as a service '
                 'platform based on original Mandrill Python API library and aiohttp',
-    long_description=open(os.path.join(os.path.dirname(__file__), 'README')).read(),
+    long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
     license='Apache-2.0',
     keywords='mandrill email api',
-    url='https://bitbucket.org/mailchimp/mandrill-api-python/',
+    url='https://github.com/comagic/aiomandrill',
     packages=['aiomandrill'],
     install_requires=['aiohttp >= 0.21.6'],
     classifiers=[
